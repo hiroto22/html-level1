@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Work</h1>
+      <div class="header-link">
+        <p class="page-link"><a href="#about">About</a></p>
+        <p class="page-link"><a href="#work">Works</a></p>
+        <p class="page-link"><a href="#news">News</a></p>
+        <p class="page-link"><a href="#contact">Contact</a></p>
+        <p class="page-link">
+          <a href="https://www.instagram.com/">
+            <img
+              class="instagram"
+              width="20px"
+              height="20px"
+              src="./img/icon-instagram.png"
+              alt="インスタグラムicon写真"
+            />
+          </a>
+        </p>
+      </div>
+    </header>
+
+    <section>
+      <picture>
+        <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg" />
+        <img class="main-img" src="./img//mainvisual-pc.jpg" alt="メイン画像" />
+      </picture>
+    </section>
+
+    <section class="about-section">
+      <h2 id="about" class="about">About</h2>
+      <div class="about-div">
+        <p class="name">Xxxxx Ashley</p>
+        <p class="info">
+          2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031
+          Japan <br />
+          tel: 000-0000-0000 <br />
+          url: www.xxxxxx.jp mail: xxx@xxxxxx.jp <br />
+          mail: xxx@xxxxxx.jp
+        </p>
+
+        <p class="profile-text">
+          プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト
+          テキストテキストテキストテキ
+          ストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキスト
+        </p>
+      </div>
+    </section>
+
+    <section class="section-works">
+      <h2 id="work" class="work">Works</h2>
+      <div class="works">
+        <img
+          class="works-img"
+          width="264px"
+          height="172px"
+          src="./img/works1.jpg"
+          alt="works1"
+        />
+        <img
+          class="works-img"
+          width="264px"
+          height="172px"
+          src="./img/works2.jpg"
+          alt="works2"
+        />
+        <img
+          class="works-img"
+          width="264px"
+          height="172px"
+          src="./img/works3.jpg"
+          alt="works3"
+        />
+        <img
+          class="works-img"
+          width="264px"
+          height="172px"
+          src="./img/works4.jpg"
+          alt="works4"
+        />
+        <img
+          class="works-img"
+          width="264px"
+          height="172px"
+          src="./img/works5.jpg"
+          alt="works5"
+        />
+        <img
+          class="works-img"
+          width="264px"
+          height="172px"
+          src="./img/works6.jpg"
+          alt="works6"
+        />
+      </div>
+    </section>
+
+    <section class="section-news">
+      <h2 id="news" class="news">News</h2>
+      <table class="news-table">
+        <tr>
+          <th>2020.XX.XX</th>
+          <td>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</td>
+        </tr>
+        <tr>
+          <th>2020.XX.XX</th>
+          <td>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</td>
+        </tr>
+        <tr>
+          <th>2019.XX.XX</th>
+          <td>
+            【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
+          </td>
+        </tr>
+        <tr>
+          <th>2019.XX.XX</th>
+          <td>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</td>
+        </tr>
+        <tr>
+          <th>2019.XX.XX</th>
+          <td>
+            【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="section-contact">
+      <h2 id="contact" class="contact">Contact</h2>
+      <form>
+        <dl>
+          <dt><label for="name">NAME</label></dt>
+          <dd class="contact-label">
+            <input id="name" class="contact-input" type="text" />
+          </dd>
+          <dt><label for="mail">E-mail</label></dt>
+          <dd class="contact-label">
+            <input id="mail" class="contact-input" type="text" />
+          </dd>
+          <dt><label for="message">MESSAGE</label></dt>
+          <dd class="contact-label"><textarea id="message"></textarea></dd>
+        </dl>
+        <button>送信</button>
+      </form>
+    </section>
+
+    <footer>© 2020 My Work</footer>
+  </body>
+</html>
